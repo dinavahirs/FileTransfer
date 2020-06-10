@@ -13,3 +13,8 @@ Notes:
 3. Test cases are written, but not yet tested.
 4. Error handling is implemented by implementing ErrorController interface. 
 5. The logic can further be refined, and it was partially attempted, but left it in comments for reference.
+
+URLs:
+http://localhost:8080/ (Multiple files are allowed to upload. Atleast one file need to be uploaded, otherwise, on submit, app will be redirected to error page)
+
+http://localhost:8080/download/<<FileName.extension>>
